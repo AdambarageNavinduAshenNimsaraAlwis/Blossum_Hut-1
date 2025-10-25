@@ -1,0 +1,27 @@
+# Node.js (for backend later)
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
