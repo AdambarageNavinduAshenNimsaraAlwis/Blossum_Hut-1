@@ -1,27 +1,33 @@
-# Node.js (for backend later)
-node_modules/
-npm-debug.log*
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Environment variables
-.env
-.env.local
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# OS files
-.DS_Store
-Thumbs.db
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Logs
-*.log
-logs/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Runtime data
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage reports
-coverage/
-
-# Temporary files
-*.tmp
-*.temp
+### VS Code ###
+.vscode/
